@@ -1,0 +1,6 @@
+/* Keep the page's fluid CSS sizing when the engine's DPR-1 fallback writes
+   inline pixel dimensions. The engine still owns the backing store and fit. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+}
